@@ -1,0 +1,48 @@
+body {
+	/*BACKGROUND TESSELATION*/
+	background-image: url("dark_tire.png"); /* subtlepatterns.org */
+	background-attachment: fixed;
+	-webkit-background-size: 256px 256px;
+	-moz-background-size: 256px 256px;
+	-o-background-size: 256px 256px;
+	background-size: 256px 256px;
+}
+
+#paper_page {
+	margin-top: 10%;
+	position: relative;
+	height:auto;
+	width: 84%;
+	min-width:200px;
+	max-width: 875px;
+	padding: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	/*BACKGROUND TESSELATION*/
+	background-image: url("handmadepaper.png"); /* subtlepatterns.org */
+	background-attachment: fixed;
+	-webkit-background-size: 256px 256px;
+	-moz-background-size: 256px 256px;
+	-o-background-size: 256px 256px;
+	background-size: 256px 256px;
+}
+
+div {
+	display: block;
+}
+
+#header_line {
+	float:left;
+	height:1px;
+	width:100%;
+	background-color: red;
+}
+
+.centered_section {
+	postition: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 40px;
+}
